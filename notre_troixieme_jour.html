@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "utf-8"/> <!--unicode-->
+		<title>HTML et CSS </title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+    
+	</head>
+	<body>
+  <header>
+  <div class="hd"> 
+    Apprendre les bases du HTML 
+    <img />
+  </div>
+  </header>
+	<nav>
+  <div class="menu">
+  <p>Sommaire</p>
+  </div>
+		<ol>
+			<li><a href="#Définition_et_Rôle_de_HTML_et_CSS">Définition et Rôle de HTML et CSS</a></li>
+			<li><a href="#Les_différentes_versions_de_HTML_et_CSS">Les différentes versions de HTML et CSS</a></li>
+			<li><a href="#Structure_html">Structure html</a></li>
+			<li><a href="#Présentation_des_balises">Présentation des balises</a></li>
+			<li><a href="#Quelques_techniques_utiles">Quelques techniques utiles</a></li>
+		</ol>
+	</nav>
+	<section>
+	<article id="Définition_et_Rôle_de_HTML_et_CSS">
+  <div class="h">
+		<h1>1. Définition et Rôle de HTML et CSS</h1>
+  </div> 
+		<p> HTML (Hyper Text Markup Language) a pour créer et pour structurer les contenues d'une page web.<br/>
+        CSS (Cascading Style Sheets) est utilisé pour mettre en form la page web. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C)<br/>
+        On n'a pas besoin un logiciel spécial pour créer une page web. Il suffit avoir un éditeur de texte, par exemple Notepad++, Sublime Text, Atom, ect. pour créer un ficher sous form .html
+        </p>
+	</article>
+	<article id="Les_différentes_versions_de_HTML_et_CSS">
+  <div class="h1">
+		<h1>2. Les différentes versions de HTML et CSS</h1>
+  </div>   
+		<h2> HTML </h2>
+		<ul> <!--liste non numérotée-->
+			<li> HTML 1: créée par Tim Berners-Lee en 1991</li>
+			<li> HTML 2: publiée en 1994</li>
+			<li> HTML 3: apparue en 1996</li>
+			<li> HTML 4: en 1998, cette version permet d'exploiter CSS</li>
+			<li> HTML 5: C'est la dernière version qu'on utilise aujourd'hui.</li> 
+		</ul>
+			
+		<h2> CSS </h2>
+		<ul> <!--liste non numérotée-->
+			<li> CSS 1: créée en 1996 </li>
+			<li> CSS 2: apparue en 1997</li>
+			<li> CSS 3: parue en 1999. C'est la dernière version qu'on apprend aujourd'hui.</li>
+		</ul> 
+	</article>
+	<article id="Structure_html">
+		<h1>3. Structure HTML</h1>
+		<p>La structure d'une page HTML se présent dans ce <a href="Structure_page_html.html" target="_blank">lien</a></p> 
+	</article>	
+	<article id="Présentation_des_balises">
+		<h1>4. Présentation des balises</h1>
+		<p> Les pages HTML sont remplies de ce qu'on appelle des balises. Une balise est présentée entre chevrons &lt;balise&gt;<br/>
+		Il y a deux types de balise ci-dessous:<br/></p>
+		<ul> <!--liste non numérotée-->
+			<li> balise ouvrante &lt;balise&gt; &amp; balise fermante corespondante &lt;/balise&gt;</li>
+			<li> balise orpheline: exemple &lt;br/&gt; </li>	
+		</ul> 
+		<p>Voici quelques balises q'on a appris:</p>
+			<p> 4.1 Balises de premier niveau</p>
+			
+			<table> <!--création de table-->
+				<tr>
+					<th>N°</th>
+					<th>Balise</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>&lt;!DOCTYPE html&gt;</td>
+					<td>Version navigateur utilisée<br/>Obligatoirement indiqué dans la première ligne
+          </td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>&lt;html&gt;</td>
+					<td>Balise principale</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>&lt;head&gt;</td>
+					<td>En tête de la page</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>&lt;body&gt;</td>
+					<td>Corps de la page</td>
+				</tr>
+			</table>
+			<p>A noter qu'on écrit le contenu du site web entre les balises &lt;body&gt; &lt;/body&gt; </p>
+			<p> 4.2 Autres balises: </p>
+			<table>
+				<tr>
+					<th>N°</th>
+					<th>Balise</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>&lt;meta/&gt;</td>
+					<td>Métadonnées de la page web</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>&lt;title&gt;</td>
+					<td>Titre de la page</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>&lt;em&gt;</td>
+					<td><em>Mise en valeur normale</em></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>&lt;h1&gt;</td>
+					<td>Titre de niveau 1</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>&lt;h2&gt;</td>
+					<td>Titre de niveau 2</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>&lt;h3&gt;</td>
+					<td>Titre de niveau 3</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>&lt;h4&gt;</td>
+					<td>Titre de niveau 4</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>&lt;h5&gt;</td>
+					<td>Titre de niveau 5</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>&lt;h6&gt;</td>
+					<td>Titre de niveau 6</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>&lt;mark&gt;</td>
+					<td> <mark>Mise en valeur visuel</mark></td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>&lt;p&gt;</td>
+					<td> Paragraphe</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>&lt;strong&gt;</td>
+					<td> <strong>Mise en valeur fort</strong></td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>&lt;br/&gt;</td>
+					<td> Retour à la ligne</td>
+				</tr>
+			</table>
+			<p> 4.3 Balises de liste:</p>
+			<p> On peut utiliser les balises de liste pour mieux structurer nos textes. Il exist trois types de balise de liste présentés dans ce tableau suivant:</p>
+			<table>
+				<tr>
+					<th>N°</th>
+					<th>Balise</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>&lt;ul&gt;</td>
+					<td>Liste non ordonnée</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>&lt;ol&gt;</td>
+					<td>Liste ordonnée</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>&lt;li&gt;</td>
+					<td>Eléments de la liste ul et ol</td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>&lt;dl&gt;</td>
+					<td>Liste de définition</td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>&lt;dt&gt;</td>
+					<td>Terme à définir</td>
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>&lt;dd&gt;</td>
+					<td>Définition du terme</td>
+				</tr>
+			</table>
+		
+			<p> Pour en savoir plus, cliquez <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank"> ici </a> </p>	
+
+		</article>
+		<article id="Quelques_techniques_utiles">
+	
+		<h1>5. Quelques techniques utiles</h1>
+		
+			<p><strong>Insérer un commentaire</strong><br/>
+				Pour insérer un commentaire afin d'expliquer aux lecteurs de notre code source de la page html, on utilise &lt;!--Ecrire votre commentaire--&gt;</p>
+			<p><strong>Insérer une image</strong><br/>
+				On insère une image avec la balise orpheline &lt;img/&gt;. A noter que'il y a deux attributs obligatoires: src(nom de l'image) et alt(une description de l'image).<br/>
+				Exemple, pour mettre une photo nommée "images.png" qui illustre la balise et les attributs demandés comme cette photo <br/> <img src="images.png" alt="balise et attributs"><br/>
+				On utilise &lt;img scr="images.png" alt="balise et attributs"/&gt;</p>
+			<p><strong>Créer un lien</strong><br/>
+				Pour insérer un lien, on utilise la balise &lt;a/&gt; avec l'attribut href pour indiquer l'adresse de la page cible.<br/>
+				Exemple: &lt;a href="https://adresse_du_site"&gt;nom du site&lt;/a&gt;.<br/>
+				Pour créer un lien dans une nouvelle onglet, on ajoute l'attribut target="_blank" avant de fermer la balise ouvrante comme ci-dessous:<br/>
+				&lt;a href="adresse_du_site" target="_blank"&gt; nom du site&lt;/a&gt;<br/>
+				On peut aussi créer le lien qui permet d'amener vers d'autres endroits sur la même page.Pour faire ça, on utilise l'attribut id pour « marquer » un endroit dans la page,<br/> 
+				puis faire un lien vers le lien souhaité comme ceci : &lt;a href="#lien_souhaité"&gt;.
+			</p>				
+			<p><strong>Créer un tableau</strong><br/>
+			  Un tableau s'insère avec la balise &lt;table&gt; et se définit avec &lt;tr&gt;. Il fault noter que les balises &lt;tr&gt; &lt;tr&gt; doivent repeter pour chaque ligne.<br/> 
+        Ensemble de lignedans le tableau contient dans les cellules normale &lt;td&gt; ou cellules d'en-tête &lt;th&gt; <br/>
+        Un tableau peut être divisé en trois sections &lt;thead&gt;(en-tête),&lt;tbody&gt;(corps) et &lt;tfoot&gt;(bas du tableau) mais ce n'est pas obligatoire de les utiliser.<br/> 
+        La légend du tableau se définit comme ceci: &lt;caption&gt;la_légend_du_tableau&lt;/caption&gt;<br/>
+        Voici un exemple de code html écrit <a href="Creation_de_tableau.html" target="_blank">un tableau en trois parties </a>
+        
+        On peut également fusionner des cellules "colonne" grâce à l'attribut colspan ou cellules "ligne" avec rowspan. Il s'agit d'indiquer le nombre de cellules à fusionner.<br/> 
+        Exemple: &lt;td rospan="2"&gt; C'est à dire que cette celulle occupe de la place de 2 cellules.
+			</p>		
+			<p><strong>Créer des formulaires</strong>
+			</p> 
+			
+		</article>	
+	</section>
+	<footer>
+  <p>Copyright - Tous droits réservés</p>
+          
+  </footer>
+	</body>
+</html>

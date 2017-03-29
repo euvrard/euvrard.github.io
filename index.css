@@ -1,0 +1,45 @@
+body {
+  background-color : #E6E6FA; 
+  color            : black;
+}
+
+
+.hd{
+  font: bold Arial;
+  font-size: 40px;
+  color : #FF4500 ;
+  background-image: #FF4500; 
+  text: middle;
+}
+.menu{
+  font: bold Arial underline;
+  font-size: 20px;
+  color : bleu;
+}
+nav
+{
+    float: left;
+    width: 180px;
+    margin-top:50px;
+    background-color:#9ACD32;
+    
+}
+section
+{
+    margin-left: 183px;
+    border: 1px solid #ADFF2F;
+    padding: 8px;
+    background-color: #ADFF2F; 
+    margin-left:200px;
+    margin-top:50px;
+    overflow: scroll;
+    text-align: justify;
+
+}
+article aside{
+ text-align: justify;
+}
+h1{
+  color: bleu;
+  
+}
