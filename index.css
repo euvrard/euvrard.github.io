@@ -1,45 +1,106 @@
 body {
-  background-color : #E6E6FA; 
+  background-color : #FAFAD2; 
   color            : black;
+  
 }
 
-
+/*/////////////////Le Header////////////////*/
 .hd{
-  font: bold Arial;
-  font-size: 40px;
-  color : #FF4500 ;
-  background-image: #FF4500; 
-  text: middle;
+  font-weight: bold;
+  font-size: 50px;
+  color : #FF4500 ; 
+  background-color:#9ACD32;
+  text-align: center; /*texte se trouve au milieu de la boîte*/
+  line-height: 150px; /*défini la hauteur de la ligne*/
+  display:flex;
+  justify-content: space-between;
+  height: 150px;
+  padding-left: 70px;
 }
+
+#logo{
+  display:flex-end;
+  height: 1O0%;
+  width:auto;
+  background-color: #9ACD32;
+}
+
+/*/////////////////Le Body////////////////*/
 .menu{
-  font: bold Arial underline;
-  font-size: 20px;
-  color : bleu;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color : white;
+  Background-color:#808000;
 }
-nav
-{
-    float: left;
-    width: 180px;
-    margin-top:50px;
-    background-color:#9ACD32;
+nav{
+  float: left;
+  width: 188px;
+  text-decoration:none;
+  background-color:#9ACD32;
+  display: block;
+  
     
 }
-section
-{
-    margin-left: 183px;
-    border: 1px solid #ADFF2F;
-    padding: 8px;
-    background-color: #ADFF2F; 
-    margin-left:200px;
-    margin-top:50px;
-    overflow: scroll;
-    text-align: justify;
-
+section{
+  margin-left:200px;
+  margin-top:10px;
+  margin-right:20px;
+  text-align: left;
+  height:550px; 
+  width:942px; 
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
-article aside{
- text-align: justify;
+article{
+  text-align: justify;
+  border: 2px ridge #9ACD32;
+  padding-left:10px;
+ 
 }
-h1{
-  color: bleu;
+aside{
   
+  float: right;
+  text-align:center;
+  line-height:20px;
+  font-size: 25px;
+  text-transform: capitalize; /*transformer tous les mots en majuscule*/
+  width: 310px;
+  color: white;
+  background-color: #34b91c;
+  border: 4px solid #808000;
+  vertical-align:top; /*aligne en haut*/
+  
+}
+.reference{
+  list-style: none;
+  text-align:left;
+  font-size: 15px;
+
+  
+}
+/*Style pour les titres niveau h1*/
+.titre{
+  color: #FF4500;
+  font: "Century-Gothic";
+  font-weight: bold;
+  font-style: italic;
+}
+/*tableau*/
+#tb {
+  color: #FF4500;
+  
+}
+/*image*/
+
+
+/*/////////////////Le Footer////////////////*/
+footer{
+  font-weight: bold;
+  font-size: 13px;
+  color : #FF4500 ; 
+  background-color:#C0C0C0;
+  text-align: center;
+  font: bold;
 }
