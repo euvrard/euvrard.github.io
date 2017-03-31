@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "utf-8"/> 
+		<title> Les formulaires </title>
+		
+		
+	</head>
+	<body>
+    <form method="post" action="">
+    <label for="name"> Name:</label> <br/>
+    <input type="text" name="user_name" id="name" required/> <br/> <!--id est identique , même valeur dans label-->
+   
+
+    <label for="e-mail"> Email:</label> <br/>
+    <input type="mail" name="mail" id="e-mail"/><br/>
+    
+   
+    
+    <!--checkbox pour la selection multiple-->
+    <p>Choissiez les métiers que vous souhaitez::<br />
+       <input type="checkbox" name="ingénieur logiciel" id="ingénieur" /> <label for="ingénieur ">Ingénieur </label><br />
+       <input type="checkbox" name="médecin" id="médecin" /> <label for="médecin">Médecin</label><br/>
+       <input type="checkbox" name="server" id="server" /> <label for="server">Server</label>
+    </p>
+    
+    <!--radio pour une seule choix-->
+    <p>Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+       <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+       <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+       <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+       <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Plus de 40 ans!</label>
+   </p>
+    <!--option-->
+      <label for="pays">Dans quel pays habitez-vous ?</label><br />
+       <select name="pays" id="pays">
+           <option value="france">Vietnam</option>
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="canada">Canada</option>
+           <option value="etats-unis">États-Unis</option>
+           <option value="france">France</option>
+           <option value="japon">Japon</option>
+       </select>
+       <br /> <br /> <br />
+     <!--regrouper les options--> 
+      <label for="pays">Dans quel pays habitez-vous ?</label><br />
+      
+      <select multiple="true" name="pays" id="pays">     <!--multiple="true": permet de voir toutes les choix possible-->
+      <optgroup label="Asie">
+           <option value="france">Vietnam</option>
+           <option value="japon">Japon</option>
+      </optgroup>
+      <optgroup label="Europe">
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="france">France</option>
+      </optgroup>  
+      <optgroup label="Amérique">
+           <option value="canada">Canada</option>
+           <option value="etats-unis">États-Unis</option>
+           <option value="etats-unis">Cuba</option>
+      </optgroup> 
+      <optgroup label="Afrique">
+           <option value="canada">Maroc</option>
+           <option value="etats-unis">Afrique du Sud</option>
+           <option value="etats-unis">Madagasca</option>
+      </optgroup> 
+      </select>    
+      
+     <br /> <br />
+    <label for="commentaires"> Commentaires:</label> <br/>
+    
+    <textarea type="text" name="commentaires" id="commentaires"/>  </textarea><br/>  <br/>
+     
+    <button type="submit"> Effacer!</button> <br/> <br/>
+    
+    <button type="reset"> ENVOYER!</button> <br/> <br/>
+    </form>
+	</body>
+	
+</html>

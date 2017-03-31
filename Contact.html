@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "utf-8"/> 
+		<title> Les formulaires </title>
+		
+		
+	</head>
+	<body>
+    <form method="post" action="">
+    <label for="name"> Name:</label> <br/>
+    <input type="text" name="user_name" id="name" required/> <br/> <!--id est identique , même valeur dans label-->
+   
+
+    <label for="e-mail"> Email:</label> <br/>
+    <input type="mail" name="mail" id="e-mail" required//><br/>
+    
+    <!--regrouper les options--> 
+      <label for="pays">Dans quel pays habitez-vous ?</label><br />
+      
+      <select multiple="true" name="pays" id="pays">     <!--multiple="true": permet de voir toutes les choix possible-->
+      <optgroup label="Asie">
+           <option value="france">Vietnam</option>
+           <option value="japon">Japon</option>
+      </optgroup>
+      <optgroup label="Europe">
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="france">France</option>
+      </optgroup>  
+      <optgroup label="Amérique">
+           <option value="canada">Canada</option>
+           <option value="etats-unis">États-Unis</option>
+           <option value="etats-unis">Cuba</option>
+      </optgroup> 
+      <optgroup label="Afrique">
+           <option value="canada">Maroc</option>
+           <option value="etats-unis">Afrique du Sud</option>
+           <option value="etats-unis">Madagasca</option>
+      </optgroup> 
+      <optgroup label="Autre">
+                  
+      </optgroup> 
+      </select>    
+      
+    
+     <!--checkbox pour la selection multiple-->
+    <p>Cochez la case correspondant à votre sentiment de ce site:<br />
+       <input type="checkbox" name="tresbien" id="tresbien" /> <label for="tresbien">Très bien </label><br />
+       <input type="checkbox" name="bien" id="bien" /> <label for="bien">Bien</label><br/>
+       <input type="checkbox" name="moyen" id="moyen" /> <label for="moyen">Moyen</label><br/>
+       <input type="checkbox" name="nul" id="nul" /> <label for="nul">Nul</label>
+    </p>
+    
+   
+    <label for="commentaires"> Commentaires:</label> <br/>
+    <textarea type="text" name="commentaires" id="commentaires"/>  </textarea><br/>  <br/>
+     
+    <button type="submit"> Recommencer</button> <br/> <br/>
+    <button type="reset"> Envoyer</button> <br/> <br/>
+    </form>
+	</body>
+	
+</html>
