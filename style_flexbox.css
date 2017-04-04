@@ -1,0 +1,70 @@
+.carre{
+  height: 150px;
+  width: 150px;
+  position:absolute;
+  
+
+}
+.rouge{
+  background-color: rgb(255,0,0);
+  margin: 20px;
+  
+}
+.rouge:hover{
+  background-color: rgb(0,255,0);
+  
+}
+p::before{
+  content:"**";
+}
+#un{
+  color:white;
+  top:30px;
+  left:30px;
+  
+}
+.vert{
+  position: absolute;
+  background-color: rgba(0,255,0,1);
+  margin: 20px;
+}
+#deux{
+  color:white;
+  top:60px;
+  left:60px;
+}
+.bleu{
+  position: absolute;
+  background-color: #0000FF;
+  background-color: rgb(0,0,255);
+  border: 5px double white;
+  margin: 20px;
+ 
+}
+#trois{
+  position:absolute;
+  color:white;
+  top: 90px;
+  left:90px;
+}
+.paragraphe1{
+  color: #0010FF;
+  height:50px;
+  width:245px;
+  border:2px solid red;
+  border-top-left-radius: 15px ;
+  border-bottom-right-radius: 15px ;
+  letter-spacing:2px;
+  padding: 5px;
+
+}
+.paragraphe2{
+  color: #FF4500;
+  
+}
+.div1{
+  width: 700px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 100px;
+}
